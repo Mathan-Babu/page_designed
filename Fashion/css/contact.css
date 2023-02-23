@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+::selection{
+    color: white;
+    background-color: orangered;
+}
+
+.main{
+    background-color: rgb(221, 255, 244);
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 460px;
+}
+.main p{
+    font-family:sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+}
+.main p span{
+    color: orangered;
+}
+
+.main img{
+    width: 680px;
+    height: 460px;
+}
+.form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 600px;
+
+}
+.form p{
+    font-family:sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.form form input, textarea{
+    margin-left: 100px;
+    width: 450px;
+    padding: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.form form button{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+    width: 100px;
+}
+.form form button:hover{
+    background-color: orangered;
+    border: 2px solid orangered;    
+}
+
+
+.form :placeholder-shown{
+    font-size: small;
+}
